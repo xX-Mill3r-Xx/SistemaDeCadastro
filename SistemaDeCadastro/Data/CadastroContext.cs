@@ -10,5 +10,7 @@ namespace SistemaDeCadastro.Data
         }
 
         public DbSet<User> User { get; set; }
+
+        public DbSet<SistemaDeCadastro.Models.Register> Register { get; set; }
     }
 }
